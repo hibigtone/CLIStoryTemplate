@@ -7,7 +7,6 @@ import Foundation
 
 func chapterFive() {
 let personOne:String = "Kassima"
-let personTwo:String = "Azura"
 let personThree:String = "Jabari"
 
 
