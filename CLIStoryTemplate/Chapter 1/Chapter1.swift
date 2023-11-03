@@ -37,6 +37,9 @@ func chapterOne() {
             }
     }
     func chapterMiddle() {
+        if sisterDeath == true {
+        }
+        
     }
 
 
