@@ -5,6 +5,16 @@
 
 import Foundation
 
+let mainCharacter:String = "Kassima"
+let mainCharacterSister:String = "Azura"
+var numberOfRewinds:Int = 3
+var numberOfDays:Int = 7
+
+
+
 func chapterFour() {
-  print("Free cookies!")
+  print("Hello, \(mainCharacter)")
+}
+
+func rewind() {
 }
