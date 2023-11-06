@@ -8,7 +8,7 @@ import Foundation
 func chapterFive() {
     let personOne:String = "Kassima"
 //    let personTwo:String = "Azura"
-    let personThree:String = "Jabari"
+    let personThree:String = "Verna"
 //    var numberofTimesAllowedtoTravel: Int = 3
 //    var numberOfTravelTimesRemaining: Int = 0
 
