@@ -10,9 +10,22 @@ func chapterFive() {
     let personTwo:String = "Azura"
     let personThree:String = "Verna"
     let personFour:String = "Mrs. Fields"
-    var numberofTimesAllowedtoTravel: Int = 3
-    var foods = ["Tomatoe soup", "Grilled Fish", "Steamed carrots", "Salad"]
-    var VeraisfeelingHelpful:Bool? = true
+    let numberofTimesAllowedtoTravel: Int = 3
+    let foods = ["Tomatoe soup", "Grilled Fish", "Steamed carrots", "Salad"]
+    let VeraisfeelingHelpful:Bool? = true
+    struct Bedding {
+        let sheetColor: sheetColorOptions
+        let pillowColor: pillowColorOptions
+
+    }
+    enum sheetColorOptions {
+        case pinksheets, greysheets, greensheets
+    }
+    enum pillowColorOptions {
+        case whitepillow, greypillow
+    }
+    let mainCharacterBedding = Bedding(sheetColor: .greysheets, pillowColor: .whitepillow)
+    
     struct womanAppearance {
         var herLooks: Int = 3
         var eyes: String = "her eyes were bloodshot, and you could hardly focus on the brown in them"
@@ -21,7 +34,7 @@ func chapterFive() {
 
     }
     
-     var girl = womanAppearance(eyes: "her eyes were bloodshot, and you could hardly focus on the brown in them")
+    let girl = womanAppearance(eyes: "her eyes were bloodshot, and you could hardly focus on the brown in them")
     
     
     print(girl.skin)
@@ -70,7 +83,17 @@ var numberOfRepeats = 0
     print("The walk to the dinning hall was silent. \(personOne) was barely even hungry, but she knew everyone was expecting her to eat so she approched the meal station.")
     print("'What would you like? There's \(foods[0]), \(foods[1]), \(foods[2]), and \(foods[3]).' A man offered with a smile.")
     print("\(personOne) decided on \(foods[2]).")
-    print("She took her meal and went to sit at a table, on her way she mad eye contact with the woman she'd previously bumped into. \(girl.skin), \(girl.nails), \(girl.eyes). ")
-    
+    print("She took her meal and went to sit at a table, on her way she saw the woman she'd previously bumped into being escorted out of the dinning hall by paramedics. \(girl.skin), \(girl.nails), \(girl.eyes). ")
+    print("She was showing symptoms of the lucitis plague, but how? It's been 5 years, why would she suddenly-?")
+    print("\(personOne) felt a wave of nausea wash over her. She went to the nearest bathroom; instantly throwing up in the sink.")
+    print("'Well, that's just disgusting. You do plan on cleaning that up right?' \(personThree) said. 'Go away.' \(personOne) replied without looking up.")
+    print("'Oh, I'm sorry. Did you want to wallow in your guilt alone?' The made \(personOne) look up. 'What are you talking about.' Verna smiled, 'You killed that woman.'")
+    print("'What? No, I didn't.'")
+    print("'Think about it. She's been perfectly healthy, now she's sick? And that has nothing to do with you?'")
+    print("")
+
+
+
+
 }
 
