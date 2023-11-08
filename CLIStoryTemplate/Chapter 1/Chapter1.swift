@@ -10,7 +10,7 @@ import Foundation
 
 
 func chapterOne() {
-    let disease: String = "blank"
+    let disease: String = "Lucitis Plauge"
     let mainCharacter: String = "Kassima"
     let sisterName: String = "Azura"
     let sisterDeath: Bool? = true
@@ -19,7 +19,7 @@ func chapterOne() {
     
     
     func chapterBegin() {
-        let paragraphOne: String = "    \(timePassed) years. \(timePassed) year since dispair was last the norm. \(timePassed) years since \(disease) claimed countless lifes around the world. \(timePassed) years since an era of worldwide terror shifted into an era of worldwide celebration. \(timePassed) years since the vaccine was invinted, \(timePassed) years since the world was saved, and \(timePassed) years since my world stopped. \(timePassed) years. But it's barely been \(timePassed) seconds since I stumbled across an old, tattered news article. The article about my sister, \(sisterName); \(disease)'s last fatality."
+        let paragraphOne: String = "    \(timePassed) years. \(timePassed) year since dispair was last the norm. \(timePassed) years since the \(disease) claimed countless lifes around the world. \(timePassed) years since an era of worldwide terror shifted into an era of worldwide celebration. \(timePassed) years since the vaccine was invinted, \(timePassed) years since the world was saved, and \(timePassed) years since my world stopped. \(timePassed) years. But it's barely been \(timePassed) seconds since I stumbled across an old, tattered news article. The article about my sister, \(sisterName); \(disease)'s last fatality."
         
         print("Would you like to read chapter one? Yes or No.")
         
