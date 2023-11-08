@@ -11,6 +11,12 @@ func chapterTwo() {
     let momma:String = "Angie"
     let poppa:String = "Roe"
     let brother:String = "lilRoe"
+    enum Time {
+        case morning, noon, evening, night
+    }
+        let evening = Time.night
+        
+
     let count = [1,2,3,4,5,6,7,8]
    
     func wakeUP() {
