@@ -19,12 +19,12 @@ func chapterFive() {
 
     }
     enum sheetColorOptions {
-        case pinksheets, greysheets, greensheets
+        case pink, grey, green
     }
     enum pillowColorOptions {
-        case whitepillow, greypillow
+        case white, grey
     }
-    let mainCharacterBedding = Bedding(sheetColor: .greysheets, pillowColor: .whitepillow)
+    let mainCharacterBedding = Bedding(sheetColor: .grey, pillowColor: .white)
     
     struct womanAppearance {
         var herLooks: Int = 3
@@ -42,7 +42,9 @@ func chapterFive() {
     print("\(personOne) took in her surroundings, and let out a sigh of relief once she realized she'd returned to the present.")
     print("However, her contentment was short lived. Panic seeped in; she'd wasted her last opportunity to save her sister.")
     print("\(personOne), in a frantic state, ran down the halls of the Asylum to her room. She'd accidentally bumped into another patient. She was a woman \(personOne) recognized, she had curly black hair, and deep brown eyes that frowned at \(personOne). 'What where you're going!' \(personOne) apologized profusely before continuing her run.")
-    print("Once she arrived to her room, \(personOne) called out for \(personThree). '\(personThree), where are you??!'")
+    print("Once she arrived to her room, \(personOne) called out for \(personThree). '\(personThree), where are you??!' The familiar")
+    print(mainCharacterBedding)
+    print("gave her little comfort.")
     print("'I know you're there; you have to send me back!' \(personOne) plead.")
     print("When she realized she wasn't getting a response she sat down on the bed behind her, and palmed her face with a sigh. Feeling totally helpless, she began to weep.")
     
@@ -90,7 +92,10 @@ var numberOfRepeats = 0
     print("'Oh, I'm sorry. Did you want to wallow in your guilt alone?' The made \(personOne) look up. 'What are you talking about.' Verna smiled, 'You killed that woman.'")
     print("'What? No, I didn't.'")
     print("'Think about it. She's been perfectly healthy, now she's sick? And that has nothing to do with you?'")
-    print("")
+    print("\(personOne) paused for a moment before she realized.")
+    print("'Oh my God... I'm carrying the disease.'")
+    
+    print("The end.")
 
 
 
